@@ -375,11 +375,24 @@ main {
     }
 
     .div3 {
-        position: absolute;
-        margin-top: -40px;
-        font-size: 75%;
+        position: relative;
+        margin-top: 10px;
+        transform: none; 
+        font-size: 0.9rem;
+        text-align: left;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .div3 {
+        position: relative;
+        margin: 20px auto; 
+        transform: none;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
 
 /*style rules for recap page*/
 .recap-main{
