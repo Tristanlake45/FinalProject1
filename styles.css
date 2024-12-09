@@ -375,7 +375,7 @@ main {
     }
 
     .div3 {
-        position: relative;
+        position: absolute;
         margin-top: -40px;
         font-size: 75%;
     }
